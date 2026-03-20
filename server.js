@@ -11,7 +11,7 @@ let produtos = [
 ]
 
 app.get('/', (req,res) => {
-    res.json("API funcionando! Chama")
+    res.json("API funcionando!")
 })
 
 app.get('/produtos', (req, res) => {
